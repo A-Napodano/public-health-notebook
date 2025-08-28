@@ -1,0 +1,201 @@
+treatment_group,sex,outcome
+Drug A,Male,Improved
+Placebo,Male,No Change
+Drug A,Male,Improved
+Placebo,Male,No Change
+Drug B,Male,No Change
+Placebo,Male,Improved
+Placebo,Female,Improved
+Drug B,Female,Improved
+Drug A,Female,Improved
+Drug A,Male,Improved
+Drug A,Female,No Change
+Placebo,Female,Improved
+Drug B,Male,Improved
+Drug A,Female,No Change
+Placebo,Female,Improved
+Drug A,Male,Improved
+Drug B,Female,No Change
+Drug A,Female,No Change
+Placebo,Female,Improved
+Drug B,Male,Improved
+Drug B,Male,Improved
+Drug A,Female,No Change
+Drug A,Female,No Change
+Drug A,Female,Improved
+Drug B,Female,No Change
+Drug A,Male,Improved
+Drug A,Female,No Change
+Placebo,Male,Improved
+Placebo,Male,Improved
+Drug A,Male,Improved
+Drug A,Male,No Change
+Drug A,Female,Improved
+Placebo,Male,Improved
+Placebo,Female,Improved
+Drug A,Female,No Change
+Drug B,Female,Improved
+Drug A,Female,Improved
+Drug B,Female,No Change
+Placebo,Male,Improved
+Placebo,Male,Improved
+Drug A,Male,Improved
+Placebo,Female,Improved
+Placebo,Male,No Change
+Placebo,Female,Improved
+Drug A,Male,Improved
+Drug B,Male,No Change
+Placebo,Male,No Change
+Drug B,Male,Improved
+Placebo,Male,Improved
+Drug B,Female,Improved
+Placebo,Male,No Change
+Drug B,Male,Improved
+Drug A,Female,Improved
+Drug A,Female,No Change
+Drug A,Female,No Change
+Drug A,Female,Improved
+Placebo,Female,Improved
+Placebo,Male,No Change
+Placebo,Male,Improved
+Drug B,Female,Improved
+Placebo,Female,Improved
+Placebo,Female,Improved
+Placebo,Male,Improved
+Placebo,Female,No Change
+Placebo,Female,No Change
+Drug A,Male,Improved
+Drug B,Male,Improved
+Drug A,Male,Improved
+Drug B,Female,Improved
+Placebo,Female,Improved
+Drug A,Female,No Change
+Drug A,Female,Improved
+Drug B,Female,Improved
+Drug A,Male,Improved
+Placebo,Male,Improved
+Drug B,Male,No Change
+Placebo,Female,Improved
+Drug B,Male,No Change
+Drug B,Male,Improved
+Placebo,Male,No Change
+Placebo,Female,No Change
+Drug A,Male,Improved
+Placebo,Male,Improved
+Drug B,Male,Improved
+Drug A,Male,Improved
+Drug B,Male,Improved
+Drug B,Female,No Change
+Placebo,Male,Improved
+Drug B,Male,No Change
+Drug A,Male,No Change
+Placebo,Male,Improved
+Drug A,Male,No Change
+Drug B,Male,No Change
+Placebo,Female,No Change
+Drug B,Female,Improved
+Drug B,Female,No Change
+Placebo,Male,Improved
+Drug A,Male,Improved
+Drug B,Female,Improved
+Drug B,Male,Improved
+Placebo,Female,No Change
+Placebo,Female,No Change
+Drug A,Male,Improved
+Drug A,Male,No Change
+Drug B,Female,Improved
+Placebo,Male,Improved
+Drug B,Male,Improved
+Drug B,Male,No Change
+Placebo,Male,No Change
+Placebo,Male,No Change
+Drug B,Female,Improved
+Placebo,Female,No Change
+Drug B,Male,No Change
+Drug A,Female,Improved
+Drug B,Female,No Change
+Placebo,Male,Improved
+Placebo,Male,No Change
+Placebo,Female,No Change
+Placebo,Male,Improved
+Placebo,Male,No Change
+Placebo,Male,Improved
+Placebo,Female,No Change
+Placebo,Male,Improved
+Placebo,Male,No Change
+Drug B,Female,Improved
+Drug A,Female,Improved
+Drug A,Female,Improved
+Drug A,Male,No Change
+Drug B,Female,Improved
+Placebo,Male,Improved
+Drug A,Female,Improved
+Drug B,Female,Improved
+Placebo,Female,Improved
+Drug A,Female,No Change
+Drug A,Female,Improved
+Drug A,Male,No Change
+Drug A,Male,Improved
+Placebo,Male,Improved
+Drug A,Male,Improved
+Drug A,Female,Improved
+Placebo,Male,Improved
+Placebo,Female,Improved
+Drug B,Female,No Change
+Placebo,Male,Improved
+Drug A,Female,Improved
+Placebo,Female,Improved
+Drug B,Female,No Change
+Drug B,Male,No Change
+Placebo,Female,No Change
+Placebo,Female,Improved
+Placebo,Male,No Change
+Drug A,Male,Improved
+Drug B,Male,No Change
+Drug B,Female,No Change
+Placebo,Male,Improved
+Drug A,Female,Improved
+Drug A,Male,Improved
+Drug B,Female,Improved
+Drug B,Male,Improved
+Placebo,Female,Improved
+Drug B,Female,No Change
+Drug B,Male,Improved
+Placebo,Female,No Change
+Drug B,Male,Improved
+Placebo,Male,Improved
+Placebo,Male,Improved
+Drug B,Female,Improved
+Drug A,Male,Improved
+Placebo,Male,No Change
+Placebo,Male,Improved
+Placebo,Male,No Change
+Placebo,Male,No Change
+Drug A,Male,No Change
+Drug B,Female,No Change
+Drug B,Female,Improved
+Drug B,Female,No Change
+Drug B,Male,Improved
+Drug B,Female,No Change
+Drug B,Female,Improved
+Drug A,Female,Improved
+Drug A,Male,No Change
+Drug B,Female,Improved
+Drug A,Female,No Change
+Drug B,Female,No Change
+Placebo,Female,No Change
+Placebo,Female,No Change
+Placebo,Female,Improved
+Drug B,Male,No Change
+Drug B,Male,Improved
+Placebo,Female,No Change
+Placebo,Male,No Change
+Placebo,Female,Improved
+Drug B,Female,Improved
+Placebo,Male,Improved
+Drug B,Female,Improved
+Placebo,Female,Improved
+Placebo,Female,Improved
+Drug B,Female,Improved
+Drug A,Male,Improved
+Drug A,Female,No Change

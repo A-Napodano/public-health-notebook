@@ -2,8 +2,10 @@
 
 # Include necessary imports here
 import math
-import numpy as np 
+import numpy as np
 import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
 
 def summarize_data(data_list):
     """
@@ -63,17 +65,18 @@ def summarize_data(data_list):
     print("-------------------")
     print(f"Count: {n}")
     print(f"Minimum: {minimum}")
+    print(f"Q1: {q1}")
+    print(f"Median: {median:.3f}")
+    print(f"Q3: {q3}")
     print(f"Maximum: {maximum}")
     print(f"Range: {data_range}")
-    print(f"Mean: {mean:.3f}")
-    print(f"Median: {median:.3f}")
+    print(f"IQR: {iqr}")
+    # Consider adding a boxplot here using seaborn
     print(mode_str)
+    print(f"Mean: {mean:.3f}")
     print(f"Variance: {variance:.3f}")
     print(f"Standard Deviation: {std_dev:.3f}")
     print(f"Coefficient of Variation: {cv:.3f}")
-    print(f"Q1: {q1}")
-    print(f"Q3: {q3}")
-    print(f"IQR: {iqr}")
     print()
     print("Shape of Distribution:")
     print("----------------------")
@@ -81,7 +84,7 @@ def summarize_data(data_list):
     print(f"Kurtosis: {kurtosis:.3f}")
     # Consider returning the sorted DataFrame and a dictionary of statistics for further use
 
-def frequency_table(data_list, step=None, bin_start=None):
+def create_frequency_table(data_list, step=None, bin_start=None, histogram=False):
     """
     Generates and prints a frequency table for the given data.
 
@@ -89,6 +92,10 @@ def frequency_table(data_list, step=None, bin_start=None):
         data_list (list): A list of numerical values.
         step (int): Optional argument to specify bin size.
         bin_start (int): Optional argument to specify starting point for bins. Defaults to min(data_list).
+        histogram (bool): If True, displays a histogram of the data. Defaults to False.
+    
+    Returns:
+        A DataFrame that represents a table with frequency, relative frequency, and cumulative frequency. An optional histogram can be printed at the end.
     """
     if not data_list:
         print("Data list is empty.")
@@ -130,13 +137,46 @@ def frequency_table(data_list, step=None, bin_start=None):
     print("-----------------------------")
     print(freq_table)
 
+    # Consider adding a histogram here as an optional argument
+    if histogram is True:
+        sns.histplot(df['label'], bins=bins, kde=True)
+        print("\nHistogram:")
+        print("----------")
+        plt.show()
+
+def create_contingency_table(df):
+    """
+    Generates and prints a contingency table for two categorical variables.
+
+    Args:
+        df (DataFrame): A pandas DataFrame with exactly two categorical columns.
+    
+    Returns:
+        A DataFrame that represents a 2x2 contingency table with counts and marginal totals.
+    """
+    if not df or df.shape[0] == 0:
+        print("DataFrame is empty.")
+        return None
+
+    if df.shape[1] != 2:
+        print("DataFrame must have exactly two columns.")
+        return None
+
+    contingency_table = pd.crosstab(df.iloc[:, 0], df.iloc[:, 1], margins=True, margins_name="Total")
+    print("Contingency Table:")
+    print("------------------")
+    print(contingency_table)
+
 def create_stem_and_leaf(data_list, title="Stem-and-Leaf Display"):
     """
-    Generates and prints a simple stem-and-leaf display for 2-digit numbers.
+    Generates and prints a simple stem-and-leaf display.
 
     Args:
         data_list (list): A list of integers to display.
         title (str): An optional title for the plot.
+    
+    Returns:
+        A printed stem-and-leaf plot.
     """
     print(title)
     print("-" * len(title))
@@ -161,6 +201,15 @@ def create_stem_and_leaf(data_list, title="Stem-and-Leaf Display"):
         print(f" {stem} | {leaf_str}")
 
 def sturges_step(data_list):
+    """
+    Uses Sturges' formula to calculate an appropriate bin width for creating a histogram.
+    
+    Args:
+        data_list (list): A list of numerical values.
+    
+    Returns:
+        An integer representing recommended bin width.
+    """
     n = len(data_list)
     k = math.ceil(np.log2(n) + 1) # number of bins
     step = (np.max(data_list) - np.min(data_list)) / k

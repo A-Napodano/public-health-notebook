@@ -2,7 +2,7 @@
 Welcome to my repository for learning biostatistics! This project serves as a personal log and toolkit as I work through my biostatistics course, translating concepts and assignments into a working knowledge of Python. The goal is to build a strong, open-source foundation in data analysis that will be useful for future academic and professional work. This repository documents my learning process and contains reusable tools for common statistical tasks.
 
 # Repository Structure
-The project is organized to keep learning materials, datasets, and custom tools separate and easy to navigate.
+The project is organized to keep learning materials, datasets, and custom tools separate and easy to navigate. You can also find markdown files that explain how to perform specific tasks, such as generating practice data.
 
 notebooks/: This directory contains the main Jupyter Notebook where I perform analyses, visualize data, and document my work.
 
@@ -29,4 +29,4 @@ The my_stats_tools.py file contains helper functions to simplify common analyses
 ```python
 import my_stats_tools as mst
 ```
-Feel free to add your own functions to this file as you build out your toolkit!
+Feel free to edit or add your own functions to this file as you build out your toolkit!
