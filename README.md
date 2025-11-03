@@ -20,18 +20,18 @@ library_references.md: This file lists a variety of interesting Python libraries
 
 Follow these steps to set up your environment and explore the project.
 
-1. Prerequisites: I started using the Anaconda Distribution, which comes pre-packaged with Python and all the necessary data science libraries (pandas, NumPy, Matplotlib, Seaborn, Jupyter, etc.). While not necessarily a prerequisite, I did find it useful to install almost everything in one go.
+1. **Prerequisites:** I started using the [Anaconda Distribution](https://www.anaconda.com/download), which comes pre-packaged with Python and all the necessary data science libraries and other goodies (pandas, NumPy, Matplotlib, Seaborn, Jupyter, etc.). While not necessarily a prerequisite, I did find it useful to install almost everything in one go.
 
-2. Clone the Repository: Clone this repository to your local machine using Git
+2. **Clone the Repository:** Clone this repository to your local machine using Git
 
-```
+```Python
 git clone https://github.com/A-Napodano/public-health-notebook.git
 cd public-health-notebook
 ```
 
-3. Launch Jupyter Notebook
+3. **Launch Jupyter Notebook**
 
-```
+```Python
 jupyter notebook
 ```
 
